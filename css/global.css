@@ -84,7 +84,9 @@ body {
     }
 
 
-
+img {
+    width: 100%;
+}
 
 .container_images {
     margin: 0 auto;
@@ -93,9 +95,9 @@ body {
     padding-bottom: 9px;
 }
 .column1 {
-    flex: 1;
+    flex: 1.99;
     /*margin-right: 4px;*/
-    padding-right: 5px;
+    padding-right: 10px;
 }
 .row1 {
     flex: 3;
@@ -104,26 +106,25 @@ body {
     flex: 3;
     flex-flow: row;
     display: flex;
-    padding-right: 4px;
+    padding-top: 7px;
 }
 .column2 {
-    flex: 1;
-    flex-wrap: wrap;
-    display: flex;
+    flex: 1.01;
 }
 .column2_first_image {
-    padding-bottom: 10px;
+    padding-bottom: 4px;
 }
-.firstimage {
-    flex: 2;
+.row2_column1 {
+    flex: 1.2;
     padding-right: 10px;
 }
-.secondimage {
-    flex: 1;
+.row2_column2 {
+    flex: 1.8;
 }
 .section2 p {
     color: #4a4a4a;
 }
+
 
 
 .text {
