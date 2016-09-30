@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+html, body {
+    /*height: 100%*/
+}
+body {
+
+}
+.main_container {
+    width: 100%;
+    height: 105px;
+    background-color: #f7f7f7;
+    position: fixed;
+}
+#redbar {
+    width: 900px;
+    height: 5px;
+    background-color: #ff000;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    background-color: #f7f7f7;
+    width: 960px;
+    height: 100px;
+    text-align: left;
+    margin: 0 auto;
+    padding-right: 30px;
+}
+    .designco_image {
+        flex: 3;
+        text-align: center;
+        padding-top: 38px;
+        color: red;
+    }
+    .logo {
+        width: 100px;
+    }
+    .home {
+        flex: 8;
+        padding-top: 10px;
+    }
+    .search {
+        flex: 1;
+        text-align: center;
+        padding-top: 38px;
+    }
+    .search img {
+        width: 20px;
+    }
+    li {
+        list-style: none;
+        display: inline-block;
+        margin: 15px;
+    }
+
+    #homered a {
+        color: red;
+    }
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+
+.details {
+    text-align: center;
+    padding: 40px;
+    padding-top: 150px;
+    /*border: 1px solid red;*/
+}
+    .details_matter {
+        font-size: 30px;
+        color: rgb(80, 80, 80);
+        /*border: 1px solid blue;*/
+    }
+    .beautiful_website {
+        color: rgb(157, 157, 157);
+        /*border: 1px solid green;*/
+    }
+
+
+
+
+.container_images {
+    margin: 0 auto;
+    display: flex;
+    width: 920px;
+    padding-bottom: 9px;
+}
+.column1 {
+    flex: 1;
+    /*margin-right: 4px;*/
+    padding-right: 5px;
+}
+.row1 {
+    flex: 3;
+}
+.row2 {
+    flex: 3;
+    flex-flow: row;
+    display: flex;
+    padding-right: 4px;
+}
+.column2 {
+    flex: 1;
+    flex-wrap: wrap;
+    display: flex;
+}
+.column2_first_image {
+    padding-bottom: 10px;
+}
+.firstimage {
+    flex: 2;
+    padding-right: 10px;
+}
+.secondimage {
+    flex: 1;
+}
+.section2 p {
+    color: #4a4a4a;
+}
+
+
+.text {
+    justify-content: center;
+    margin: 0 auto;
+    width: 920px;
+}
+.section1 {
+    float: left;
+    width: 305px;
+    margin-top: -18px;
+}
+.section1 p {
+    color: #585858;
+}
+.section1 a {
+    color: #585858;
+}
+.whats_new {
+    color: #ff0505;
+}
+.modern_layouts {
+    color: #585858;
+}
+.section2 p{
+    columns: 3;
+}
+.section2 {
+    margin-top: 30px;
+}
